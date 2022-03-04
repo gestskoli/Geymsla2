@@ -1,20 +1,21 @@
 # geymsla1
 Prufugeymsla fyrir skólann
 
-# Heading 1
+1. [Tilvísun](#tilvísun)
+1. [Listar](#listar)
+    1. [Óraðaður list](#óraðaður-listi)
+    1. [Raðaður listi](#raðaður-listi)
+1. [Fína taflan](#tafla)
+1. [Annað](#linkar-kóði-og-rest)
 
-## Heading 2
 
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-jsklfdjsklfd
-###### Heading 6
-jskldfjskalfjsk
+## Tilvísun
 
 > Hér kemur tilvísun í einhvern merkan texta
+
+## Listar
+
+### Óraðaður listi
 
 - item 1
 - item 2
@@ -22,6 +23,8 @@ jskldfjskalfjsk
     - subitem 2
         - subsubitem 1
 - item 3
+
+### Raðaður listi
 
 1. item 1
 1. item 2
@@ -33,17 +36,32 @@ jskldfjskalfjsk
     1. subitem 2
     1. subitem 2
 
+## Tafla
 
 Haus 1 | Haus 2 | Haus 3
 :---: | --- | ---:
 12 | 32 | 89
 abc | jsleifsfejl | sfjli
 
+## Linkar, kóði og rest
+
 [Hér](https://www.tskoli.is) er heimasíða Tækniskólans.
+<!-- Hér fyrir neðan er kóði úr arduino -->
+```arduino
+void setup() {
+    Serial.begin(9600);
+    Serial.println("Halló");
+}
+```
+
+<!-- **Texti, *annar* \*texti** -->
+
+*skáletrað*
+
+~~gegnumstrikað~~
 
 
-
-sjklfsdjlfdkj
+s1jklfsdjlfdkj
 
 ![Einhver góð](simon_vero.PNG)
 
